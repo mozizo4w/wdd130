@@ -5,6 +5,7 @@
 body{
    margin: 0;
    padding: 0;
+   width: 100vw;
    height: 100vh;
 }
 
@@ -14,7 +15,7 @@ html {
 
 .header {
    display: grid;
-   grid-template-columns: repeat(12, 1fr);
+   grid-template-columns: 1fr;
    grid-template-rows: 1fr;
    grid-column-gap: 0px;
    grid-row-gap: 0px;
@@ -85,12 +86,16 @@ html {
 
 }
 
-.hero-text p{
+.hero-text p {
    font-family: DM Sans;
    font-kerning: 5px;
    font-size: 1.2em;
    word-spacing: 2px;
    margin: 3px;
+}
+
+.hero-text a {
+   margin-top:40px; 
 }
 
 p:nth-of-type(2) {
@@ -117,7 +122,7 @@ p:nth-of-type(3) {
    align-items: center;
    text-decoration: none;
    font-family: DM Sans;
-   padding-top: 11px;
+   padding-top: 1px;
 }
 
 .hero-button:hover {
@@ -130,10 +135,10 @@ p:nth-of-type(3) {
 .sidenav {  
    display: flex;
    background-color: #FCA311;
-   width: 250px;
+   width: 150px;
    height: 70px;
-   position: absolute;
-   z-index: 1;
+   position: fixed;
+   z-index: 2;
    padding: 13px;
    padding-bottom: 550px;
    margin-top: 370px;
@@ -145,7 +150,7 @@ ul {
    margin-left: -13px;
    margin: -13px;
    padding: 0 0;
-   width: 236px;
+   width: 136px;
    background-color: #FCA311;
 }
 
@@ -156,7 +161,7 @@ li a {
    text-decoration: none;
    font-size: medium;
    font-family: Fira Sans;
-   width: 250px;
+   width: 136px;
    display: inline-block;
    transition: all 0.5s ease-out;  
 }
@@ -193,9 +198,10 @@ section#aboutme-msg {
 #aboutme-box {
    display: grid;
    position: absolute;
-   z-index: 1;
+   /* z-index: 1; */
    margin-top: 235px;
-   margin-left: -56px;
+   margin-left: 85px;
+   /* border: 1px dotted red; */
 }
 
 section#aboutme-msg {
@@ -346,6 +352,7 @@ section#aboutme-msg h1 {
    background-color: #FCA311;
    height: 750px;
    padding-bottom: 12%;
+   /* border: 1px dotted red; */
 }
    
 #myresume-msg { 
@@ -389,6 +396,7 @@ section#aboutme-msg h1 {
    display: grid;
    margin-top: 25%;
    margin-left: 450px;
+   /* border: 1px dotted red; */
 }
 
 #experince-box-two {
@@ -415,6 +423,7 @@ section#aboutme-msg h1 {
    font-kerning: 5px;
    font-size: 1em;
    color: black;
+   font-weight: bold;
 }
 
 #education-box {
@@ -441,6 +450,7 @@ section#aboutme-msg h1 {
    font-size: 1em;
    color: black;
    margin-left: 600px;
+   font-weight: bold;
 }
 
 #resumeimage {
@@ -600,7 +610,7 @@ section#aboutme-msg h1 {
    margin-top: 280px;
    font-kerning: 5px;
    font-size: 1.2em;
-   color: black;
+   
 }
 
 .button-box {
@@ -616,9 +626,21 @@ section#aboutme-msg h1 {
    float: left;
    align-items: center;
    font-family: DM Sans;
-   padding-top: 11px;
+   padding-top: 1px;
    justify-content: center;
    margin-top:300px;
+}
+
+.button-box:hover {
+   box-shadow: 0 0 10px rgba(22, 22, 22, 0.2); 
+   background-color: #14213D;
+   transition: all 0.5s ease-out; 
+}
+
+.button-box, a:hover {
+   box-shadow: 0 0 10px rgba(22, 22, 22, 0.2); 
+   transition: all 0.5s ease-out; 
+   color: white;
 }
 
 #getintoch-msg-button { 
@@ -638,14 +660,7 @@ section#aboutme-msg h1 {
    margin-left: auto;
    text-decoration: none;
    font-size: 1em;
-}
-
-
-.button-box:hover {
-   box-shadow: 0 0 10px rgba(22, 22, 22, 0.2); 
-   background-color: #14213D;
-   transition: all 0.5s ease-out; 
-   color: white;
+   margin-top:10px;
 }
 
 footer {
@@ -666,3 +681,4 @@ footer p {
    font-size: medium;
    font-family: DM Sans;
 }
+
