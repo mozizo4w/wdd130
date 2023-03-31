@@ -72,7 +72,7 @@ html {
    align-items: center;
    margin-left: 60%;
    margin-right: 15px;
-   padding-top: 21%;
+   padding-top: 30%;
 }
 
 .hero-text h1{
@@ -140,7 +140,7 @@ p:nth-of-type(3) {
    z-index: 2;
    padding: 13px;
    padding-bottom: 550px;
-   margin-top: 370px;
+   margin-top: 321px;
 }
 
 ul {
@@ -237,25 +237,11 @@ li a:hover {
    margin-top: -200px;
 }
 
-#minirecentworks-box-one h3 {
-   text-align: center;
-   margin-top: -240px;
-   font-family: DM Sans;
-   opacity: 80%;
-}
-
 #minirecentworks-box-two { 
    display: grid;
    margin: 50px;
    margin-left: -180px;
    margin-top: -200px;
-}
-
-#minirecentworks-box-two h3 {
-   text-align: center;
-   margin-top: -240px;
-   font-family: DM Sans;
-   opacity: 80%;
 }
 
 #minirecentworks-box-three { 
@@ -265,25 +251,11 @@ li a:hover {
    margin-top: -200px;
 }
 
-#minirecentworks-box-three h3 {
-   text-align: center;
-   margin-top: -240px;
-   font-family: DM Sans;
-   opacity: 80%;
-}
-
 #minirecentworks-box-four { 
    display: grid;
    margin: 50px;
    margin-left: -180px;
    margin-top: -200px;
-}
-
-#minirecentworks-box-four h3 {
-   text-align: center;
-   margin-top: -240px;
-   font-family: DM Sans;
-   opacity: 80%;
 }
 
 .ajustment-one {
@@ -346,25 +318,11 @@ li a:hover {
     margin-top: -200px;
 }
  
-#minirecentworks-box-one h3 {
-    text-align: center;
-    margin-top: -240px;
-    font-family: DM Sans;
-    opacity: 80%;
-}
- 
 #minirecentworks-box-two { 
     display: grid;
     margin: 50px;
     margin-left: -180px;
     margin-top: -200px;
-}
- 
-#minirecentworks-box-two h3 {
-    text-align: center;
-    margin-top: -240px;
-    font-family: DM Sans;
-    opacity: 80%;
 }
  
 #minirecentworks-box-three { 
@@ -374,25 +332,11 @@ li a:hover {
     margin-top: -200px;
 }
  
-#minirecentworks-box-three h3 {
-    text-align: center;
-    margin-top: -240px;
-    font-family: DM Sans;
-    opacity: 80%;
-}
- 
 #minirecentworks-box-four { 
     display: grid;
     margin: 50px;
     margin-left: -180px;
     margin-top: -200px;
-}
- 
-#minirecentworks-box-four h3 {
-    text-align: center;
-    margin-top: -240px;
-    font-family: DM Sans;
-    opacity: 80%;
 }
  
 .ajustment-two {
@@ -454,25 +398,11 @@ li a:hover {
     margin-top: -200px;
 }
  
-#minirecentworks-box-one h3 {
-    text-align: center;
-    margin-top: -240px;
-    font-family: DM Sans;
-    opacity: 80%;
-}
- 
 #minirecentworks-box-two { 
     display: grid;
     margin: 50px;
     margin-left: -180px;
     margin-top: -200px;
-}
- 
-#minirecentworks-box-two h3 {
-    text-align: center;
-    margin-top: -240px;
-    font-family: DM Sans;
-    opacity: 80%;
 }
  
 #minirecentworks-box-three { 
@@ -482,25 +412,11 @@ li a:hover {
     margin-top: -200px;
 }
  
-#minirecentworks-box-three h3 {
-    text-align: center;
-    margin-top: -240px;
-    font-family: DM Sans;
-    opacity: 80%;
-}
- 
 #minirecentworks-box-four { 
     display: grid;
     margin: 50px;
     margin-left: -180px;
     margin-top: -200px;
-}
- 
-#minirecentworks-box-four h3 {
-    text-align: center;
-    margin-top: -240px;
-    font-family: DM Sans;
-    opacity: 80%;
 }
  
 .ajustment-three {
@@ -562,25 +478,11 @@ li a:hover {
     margin-top: -200px;
 }
  
-#minirecentworks-box-one h3 {
-    text-align: center;
-    margin-top: -240px;
-    font-family: DM Sans;
-    opacity: 80%;
-}
- 
 #minirecentworks-box-two { 
     display: grid;
     margin: 50px;
     margin-left: -180px;
     margin-top: -200px;
-}
- 
-#minirecentworks-box-two h3 {
-    text-align: center;
-    margin-top: -240px;
-    font-family: DM Sans;
-    opacity: 80%;
 }
  
 #minirecentworks-box-three { 
@@ -590,25 +492,11 @@ li a:hover {
     margin-top: -200px;
 }
  
-#minirecentworks-box-three h3 {
-    text-align: center;
-    margin-top: -240px;
-    font-family: DM Sans;
-    opacity: 80%;
-}
- 
 #minirecentworks-box-four { 
     display: grid;
     margin: 50px;
     margin-left: -180px;
     margin-top: -200px;
-}
- 
-#minirecentworks-box-four h3 {
-    text-align: center;
-    margin-top: -240px;
-    font-family: DM Sans;
-    opacity: 80%;
 }
  
 .ajustment-four {

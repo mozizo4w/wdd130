@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Fira+Sans:wght@400;700&display=swap');
+
+
+body{
+   margin: 0;
+   padding: 0;
+   width: 100vw;
+   height: 100vh;
+}
+
+html {
+   scroll-behavior: smooth;
+}
+
+.header {
+   display: grid;
+   grid-template-columns: 1fr;
+   grid-template-rows: 1fr;
+   grid-column-gap: 0px;
+   grid-row-gap: 0px;
+   grid-gap: 1em;
+   /* border: 1px dotted red; */
+   z-index: 1;
+   position: fixed;
+   width: 1900px;
+   height: auto;
+}
+
+.logo {
+   grid-area: 1/12;
+   margin: auto 0 0;
+   width: 100%;
+   height: auto;
+}
+
+.header .logo {
+   width: 110px;  
+   height: 100%;
+   margin-bottom: 0 !important;
+}
+
+.hero-box {
+   display: grid;
+   grid-template-columns: 1fr;
+   grid-template-rows: 450px;
+   grid-column-gap: 0px;
+   grid-row-gap: 0px;
+   align-content: center;
+   justify-content: center;
+}
+   
+.hero-image { 
+   grid-area: 1 / 1 / 2 / 2; 
+}
+   
+.hero-text { 
+   grid-area: 1 / 1 / 2 / 2; 
+}
+
+.hero-image {
+   display: grid;
+   min-width: 350px;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   justify-content: center;
+   align-items: center;
+}
+
+.hero-text {
+   display: grid;
+   align-items: center;
+   margin-left: 60%;
+   margin-right: 15px;
+   padding-top: 21%;
+}
+
+.hero-text h1{
+   font-family: Fira Sans;
+   font-kerning: 5px;
+   font-size: 60px;
+   color: #FCA311;
+   margin: -1px;
+   margin-top: 20px;
+}
+
+.hero-text p {
+   font-family: DM Sans;
+   font-kerning: 5px;
+   font-size: 1.2em;
+   word-spacing: 2px;
+   margin: 3px;
+}
+
+.hero-text a {
+   margin-top:40px; 
+}
+
+p:nth-of-type(2) {
+   margin-top: 1px;
+   font-size: 1.2em;
+   font-weight: regular;
+   color: black;
+}
+
+p:nth-of-type(3) {
+   margin-top: 20px;
+}
+
+.hero-text h3{
+   font-family: Fira Sans;
+   font-kerning: 5px;
+   font-size: 30px;
+   color: #FCA311;
+   margin: -1px;
+   margin-top: 20px;
+}
+
+h3:nth-of-type(2) {
+   font-family: Fira Sans;
+   font-kerning: 5px;
+   font-size: 30px;
+   color: #FCA311;
+   margin: 0px 0px -20px 0px;
+   margin-top: 20px;
+}
+
+
+.hero-button {
+   transition: box-shadow .3s;
+   width: 180px;
+   height: 40px;
+   margin: 50px;
+   margin-left: 2px;
+   border-radius:50px;
+   border: 2px solid #14213D;
+   background: #fff;
+   float: left;
+   align-items: center;
+   text-decoration: none;
+   font-family: DM Sans;
+   padding-top: 1px;
+}
+
+.hero-button:hover {
+   box-shadow: 0 0 10px rgba(22, 22, 22, 0.2); 
+   background-color: #14213D;
+   transition: all 0.5s ease-out; 
+   color: white;
+}
+
+.sidenav {  
+   display: flex;
+   background-color: #FCA311;
+   width: 150px;
+   height: 70px;
+   position: fixed;
+   z-index: 2;
+   padding: 13px;
+   padding-bottom: 550px;
+   margin-top: 321px;
+}
+
+ul {
+   list-style-type: none;
+   margin-top: -13px;
+   margin-left: -13px;
+   margin: -13px;
+   padding: 0 0;
+   width: 136px;
+   background-color: #FCA311;
+}
+
+li a {
+   display: block;
+   color: #14213D;
+   padding: 15px 20px;
+   text-decoration: none;
+   font-size: medium;
+   font-family: Fira Sans;
+   width: 136px;
+   display: inline-block;
+   transition: all 0.5s ease-out;  
+}
+
+li a:hover {
+   background-color: white;
+   color: #FCA311;
+   width: 100%;
+   margin: 0;
+   font-weight: bold;
+}
+
+#contactme-box {
+    display: grid;
+    position: relative;
+    z-index: 1;
+    margin-top: -300px;
+    padding-left: 300px;
+ }
+
+ .getintoch-grid {
+   display: grid;
+   grid-template-columns: 1fr;
+   grid-template-rows: 20px;
+   grid-column-gap: 0px;
+   grid-row-gap: 0px;
+   align-content: center;
+   justify-content: center;
+   background-color: white;
+   padding-bottom: 0px;
+   margin-top: 0px;
+}
+
+footer {
+   display: grid;
+   grid-template-columns: 1fr;
+   grid-template-rows: 20px;
+   grid-column-gap: 0px;
+   grid-row-gap: 0px;
+   align-content: center;
+   justify-content: center;
+   background-color: #14213D;
+   padding-bottom: 50px;
+   margin-top: -60px;
+}
+
+footer p {
+   text-align: center;
+   color: white;
+   font-size: medium;
+   font-family: DM Sans;
+}
+
