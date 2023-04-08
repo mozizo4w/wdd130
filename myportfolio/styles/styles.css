@@ -19,7 +19,6 @@ html {
    grid-column-gap: 0px;
    grid-row-gap: 0px;
    grid-gap: 1em;
-   /* border: 1px dotted red; */
    z-index: 1;
    position: fixed;
    width: 1900px;
@@ -227,7 +226,6 @@ section#aboutme-msg {
 #aboutme-box {
    display: grid;
    position: absolute;
-   /* z-index: 1; */
    margin-top: 235px;
    margin-left: 85px;
    /* border: 1px dotted red; */
