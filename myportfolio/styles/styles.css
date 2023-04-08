@@ -228,7 +228,6 @@ section#aboutme-msg {
    position: absolute;
    margin-top: 235px;
    margin-left: 85px;
-   /* border: 1px dotted red; */
 }
 
 section#aboutme-msg {
@@ -379,7 +378,6 @@ section#aboutme-msg h1 {
    background-color: #FCA311;
    height: 750px;
    padding-bottom: 12%;
-   /* border: 1px dotted red; */
 }
    
 #myresume-msg { 
@@ -424,11 +422,9 @@ section#aboutme-msg h1 {
    display: grid;
    margin-top: 27%;
    margin-left: 450px;
-   /* border: 1px dotted red; */
 }
 
 #experince-box-two {
-   /* display: grid; */
    margin-top: 6.5%;
    margin-left: 600px;
    padding-top: 40px;
